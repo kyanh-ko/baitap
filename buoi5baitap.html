@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=4,b=7
+        //Ví dụ 1: kiểm tra a>b hay không
+        if(a>b){
+            console.log(a+" > "+b)
+        }
+        else{
+            console.log(a+" < "+b)
+        }
+        //Ví dụ 2: kiểm tra a là số dương hay không
+        if(a>0){
+            console.log(a+" là số dương")
+        }
+        else{
+            console.log(a+" không là số dương")
+        }
+        //Ví dụ 3: kiểm tra a=b hay không
+        if(a==b){
+            console.log(a+" = "+b)
+        }
+        else{
+            console.log(a+" khác "+b)
+        }
+        // == so sánh bằng 
+        //!= so sánh không bẳng
+        // <= bé hơn hoặc bằng
+        // >= lớn hơn hoặc bằng
+        // && và
+        // || hoặc 
+
+        //Ví dụ 4: kiểm tra a và b có đồng thời lớn hơn 0 không
+        if(a>0&&b>0){
+            console.log(a+" và "+b+" đồng thời lớn hơn 0")
+        }
+        else{
+            console.log(a+b+" không đồng thời lớn hơn 0")
+        }
+        //Bài 1: kiểm tra a có chia hết cho b không
+        if(a%b==0){
+            console.log(a+" chia hết cho "+b)
+        }
+        else{
+            console.log(a+" không chia hết cho "+b)
+        }
+        //Bài 2: kiểm tra a là số chẵn hay số lẻ
+        if(a%2==0){
+            console.log(a+" là số chẵn")
+        }
+        else{
+            console.log(a+" là số lẻ")
+        }
+        //Bài 3: kiểm tra a là số dương, âm hay bằng 0
+        if(a>0){
+            console.log(a+" là số dương")
+        }
+        else if(a<0){
+            console.log(a+" là số âm")
+        }
+        else{
+            console.log(a+"=0")
+        }
+        //Bài 4: kiểm tra a có 1 chữ số, 2 chữ số, 3 chữ số hay >= 4 chữ số
+        if(a<10){
+            console.log(a+" có 1 chữ số")
+        }
+        else if(a<100){
+            console.log(a+" có 2 chữ số")
+        }
+        else if(a<1000){
+            console.log(a+" có 3 chữ số")
+        }
+        else{
+            console.log(a+" có từ 4 chữ số")
+        }
+        //Bài 5: giả sử a là tháng trong năm, cho biết tháng đó có bao nhiêu ngày
+        if(a==2){
+            console.log("tháng "+a+" có 28/29 ngày")
+        }
+        else if(a==4||a==6||a==9||a==11){
+            console.log("tháng "+a+" có 30 ngày")
+        }
+        else{
+            console.log("tháng "+a+" có 31 ngày")
+        }
+
+    </script>
+</body>
+</html>
